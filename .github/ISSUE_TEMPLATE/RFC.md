@@ -1,6 +1,6 @@
 ---
 name: RFC
-description: Propose an RFC to start a collaborative discussion on a new idea, design or engineering practice before final decisions are made.
+about: Propose an RFC to start a collaborative discussion on a new idea, design or engineering practice before final decisions are made.
 labels: ["RFC"]
 ---
 
