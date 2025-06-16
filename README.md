@@ -14,7 +14,7 @@ This repository contains engineering-wide and product-specific architectural des
 - **Product-specific ADRs:**  
   Each product has its own directory at the root (e.g., `/product-foo/`).
 
-All ADRs use a 4-digit numbering scheme and a descriptive filename, e.g., `0001-standardise-rfc-and-adr-templates.md`.
+All ADRs use a 4-digit numbering scheme and a descriptive filename, e.g. `0001-standardise-rfc-and-adr-templates.md`.
 
 For more details, see the [ADR 0001](./adr/0001-standardise-rfc-and-adr-templates.md).
 
