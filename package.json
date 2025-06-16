@@ -1,0 +1,14 @@
+{
+  "name": "design-documents",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format": "prettier --check \"**/*.{js,md,json}\"",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
+    "prettier": "^3.5.3"
+  }
+}

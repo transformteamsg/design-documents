@@ -1,0 +1,14 @@
+.DS_Store
+
+# Ignore editor directories and files.
+.idea
+.vscode/*
+!.vscode/settings.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore node modules.
+node_modules
