@@ -1,0 +1,11 @@
+{
+  "name": "design-documents",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format": "prettier --check \"**/*.{js,md,json}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}
