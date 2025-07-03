@@ -76,7 +76,7 @@ Given the trust boundary between MySEC and SDT, and the practical constraints of
 
 ### High Level Diagram
 
-![High Level Diagram](diagrams/0001-high-level-diagram.png.png)
+![High Level Diagram](diagrams/0001-high-level-diagram.png)
 
 ## Alternatives Considered
 
