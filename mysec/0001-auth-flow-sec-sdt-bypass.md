@@ -1,8 +1,9 @@
 ## Author(s)
-- Wei Jun / @Physium 
-- Lai Ho / @iamlaiho 
-- Wilson / @wholesomewilson 
-- Eileen / @kmye 
+
+- Wei Jun / @Physium
+- Lai Ho / @iamlaiho
+- Wilson / @wholesomewilson
+- Eileen / @kmye
 
 ## Discussion & Voting Timeline
 
@@ -53,20 +54,22 @@ Example payload:
 - JWTs will be signed using RS256.
 - Tokens will expire within 3–5 minutes of issuance.
 - SDT will reject tokens with:
-    - Invalid signature
-    - Expired exp
-    - Unexpected aud or iss fields
+  - Invalid signature
+  - Expired exp
+  - Unexpected aud or iss fields
 
 ### **Token Transfer**
 
 Authentication tokens will be transferred via a redirect using query parameters. This mechanism allows MySEC to hand off users to SDT without introducing additional complexity or workflow.
 
 While redirect-based token transmission introduces several known security considerations—such as:
+
 - Exposure of tokens in browser history and server logs
 - Potential leakage via the Referer header when SDT loads third-party resources
 - Possibility of replay attacks if tokens are intercepted and reused
 
 These risks are mitigated through the following safeguards:
+
 - The JWT contains only non-sensitive user attributes (e.g., email address)
 - Tokens are short-lived (e.g., 3–5 minutes) and single-use
 - SDT validates the iss, aud, and token signature before establishing a session
